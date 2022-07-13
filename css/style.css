@@ -3,3 +3,39 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+header{
+    background-color: #ff6900;
+    position: fixed;
+    width: 100%;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header ul{
+    max-width: 1200px;
+}
+
+header ul li span{
+    color: #e8e6e4;
+}
+
+header ul li img{
+    width: 100px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.margine{
+    max-width: 900px;
+    margin: 0 auto;
+}
