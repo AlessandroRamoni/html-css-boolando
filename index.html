@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Boolando</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -26,7 +28,8 @@
             <section class="flexcenter">
                 <div class="card">
                     <div class="immagine">
-                        <img src="./img/1.webp" alt="prima foto">
+                        <img id="firstphoto" src="./img/1.webp" alt="prima foto">
+                        <img id="hidden" src="./img/1b.webp" alt="prima foto nascosta">
                     </div>
                     <div class="testo">
                         <h6>Levi's</h6>
@@ -103,20 +106,24 @@
             </section>
 
         </main>
+        <!-- footer -->
         <footer>
             <div class="margine">
                 <h3>Boolando s.r.l.</h3>
                 <h5>Trovaci anche su</h5>
             </div>
-            <div class="margine">
-                <span>Informazioni legali</span><span>Informativa sulla privacy</span><span>Diritto di recesso</span>
-                <div>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+            <div id="float-footer" class="margine">
+                <div id="footer-left">
+                    <span>Informazioni legali</span><span>Informativa sulla privacy</span><span>Diritto di
+                        recesso</span>
+                </div>
+                <div id="footer-right">
+                    <ul class="flex-icon">
+                        <li><i class="fa-brands fa-twitter-square"></i></li>
+                        <li><i class="fa-brands fa-facebook-square"></i></li>
+                        <li><i class="fa-brands fa-instagram-square"></i></li>
+                        <li><i class="fa-brands fa-pinterest-square"></i></li>
+                        <li><i class="fa-brands fa-youtube-square"></i></li>
                     </ul>
                 </div>
             </div>

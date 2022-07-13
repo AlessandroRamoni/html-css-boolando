@@ -6,8 +6,9 @@
 
 header{
     background-color: #ff6900;
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 ul{
@@ -85,6 +86,10 @@ img{
     right: 0;
 }
 
+.heart:hover{
+    color: red;
+}
+
 .sconto{
     background-color: red;
     color: #ffffff;
@@ -132,6 +137,8 @@ img{
     text-transform: uppercase;
 }
 
+
+
 footer{
     background-color: #1a1a1a;
     width: 100%;
@@ -163,3 +170,32 @@ footer div:nth-of-type(2){
 footer div:nth-of-type(2) span{
     margin-right: 30px;
 }
+
+.flex-icon{
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+#footer-left{
+    float: left;
+}
+
+#footer-right{
+    float: right;
+}
+
+#float-footer{
+    display: table;
+    clear: both;
+    content: "";
+}
+
+#hidden{
+    position: absolute;
+}
+
+#firstphoto:hover #hidden{
+    visibility: visible;
+}
+
