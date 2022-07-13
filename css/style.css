@@ -4,10 +4,9 @@
     box-sizing: border-box;
 }
 
-
 header{
     background-color: #ff6900;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
 }
 
@@ -17,8 +16,9 @@ ul{
     list-style: none;
 }
 
-header nav ul{
+header nav{
     max-width: 1200px;
+    margin: 0 auto;
 }
 
 header nav ul li span{
@@ -29,9 +29,13 @@ header nav ul li img{
     width: 100px;
 }
 
+.container header nav ul li span{
+    margin-right: 10px;
+}
+
 .flex{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -107,4 +111,55 @@ img{
     position: absolute;
     bottom: 80px;
     left: 35px;
+}
+
+.left{
+    left: 0;
+}
+
+.red{
+    color: red;
+    font-weight: 800;
+}
+
+.line-through{
+    text-decoration: line-through;
+    font-weight: 800;
+    margin-left: 5px;
+}
+
+.testo h4{
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: #1a1a1a;
+    width: 100%;
+    padding: 20px 0;
+}
+
+footer div:first-child{
+    color: #ffffff;
+}
+
+footer div h3{
+    float: left;
+}
+
+footer div h5{
+    float: right;
+}
+
+footer div::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+
+footer div:nth-of-type(2){
+    color: #ffffff;
+}
+
+footer div:nth-of-type(2) span{
+    margin-right: 30px;
 }
