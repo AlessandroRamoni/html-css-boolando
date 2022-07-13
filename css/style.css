@@ -17,15 +17,15 @@ ul{
     list-style: none;
 }
 
-header ul{
+header nav ul{
     max-width: 1200px;
 }
 
-header ul li span{
+header nav ul li span{
     color: #e8e6e4;
 }
 
-header ul li img{
+header nav ul li img{
     width: 100px;
 }
 
@@ -35,7 +35,57 @@ header ul li img{
     align-items: center;
 }
 
+.flexcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
 .margine{
     max-width: 900px;
     margin: 0 auto;
+}
+
+.container{
+    background-color: #ffffff;
+}
+
+.container main section{
+    padding-top: 50px;
+}
+
+.immagine{
+    width: 300px;
+}
+
+img{
+    width: 100%;
+}
+
+.card{
+    position: relative;
+}
+
+.heart{
+    background-color: #ffffff;
+    font-size: 1.5em;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+.sconto{
+    background-color: red;
+    color: #ffffff;
+    font-size: 0.7em;
+    display: inline-block;
+    width: 45px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px; 
 }
