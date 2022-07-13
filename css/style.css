@@ -68,12 +68,14 @@ img{
     position: relative;
 }
 
+
 .heart{
     background-color: #ffffff;
     font-size: 1.5em;
     width: 30px;
     height: 30px;
     text-align: center;
+    line-height: 30px;
     position: absolute;
     top: 5px;
     right: 0;
@@ -84,8 +86,25 @@ img{
     color: #ffffff;
     font-size: 0.7em;
     display: inline-block;
-    width: 45px;
+    width: 30px;
     height: 20px;
     text-align: center;
     line-height: 20px; 
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+}
+
+.popupverde{
+    background-color: #008000;
+    color: #ffffff;
+    font-size: 0.7em;
+    display: inline-block;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    bottom: 80px;
+    left: 35px;
 }
